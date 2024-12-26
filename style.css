@@ -1,0 +1,190 @@
+    body{
+        background-color: hsl(30, 38%, 92%); 
+      }
+    
+    main{
+      margin: 28px 8px;
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .image-container img{
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    
+    .product-info{
+      margin: 20px 25px;
+    }
+    
+    .product-type{
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-family: Montserrat, Arial;
+    }
+
+    .product-name {
+      font-family: Fraunces, Arial;
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .product-description {
+      font-family: Montserrat, Arial;
+      margin-bottom: 20px;
+    }
+  
+    .product-price {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: start;
+      margin-bottom: 20px;
+    }
+  
+    .current-price {
+      margin-right: 20px;
+      font-size: 34px;
+      font-weight: bold;
+      color: hsl(158, 36%, 37%);
+      font-family: Fraunces, Arial;
+    }
+  
+    .previous-price {
+      font-size: 12px;
+      font-family: Montserrat, Arial;
+      text-decoration: line-through;
+      color: hsl(228, 12%, 48%);
+    }
+  
+    .button-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .button {
+      font-family: Montserrat, Arial;
+      background-color: hsl(158, 36%, 37%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border-radius: 5px;
+      width: 100%;
+      padding: 12px;
+      cursor: pointer;
+    }
+  
+    .button-icon{
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+
+   @media screen and (min-width: 375px){
+      body {
+        background-color: hsl(30, 38%, 92%);
+      }
+    
+      main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+    
+      .image-container{
+        width: 350px;
+        height: 500px;
+      }
+    
+      .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .product-info {
+        margin: 25px 25px;
+        width: 300px;
+      }
+    
+      .product-type {
+        margin-bottom: 25px;
+        font-family: Montserrat, Arial;
+      }
+    
+      .product-name {
+        font-family: Fraunces, Arial;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 25px;
+      }
+    
+      .product-description {
+        font-family: Montserrat, Arial;
+        margin-bottom: 25px;
+      }
+    
+      .product-price {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: start;
+        margin-bottom: 25px;
+      }
+    
+      .current-price {
+        margin-right: 20px;
+        font-size: 34px;
+        font-weight: bold;
+        color: hsl(158, 36%, 37%);
+        font-family: Fraunces, Arial;
+      }
+    
+      .previous-price {
+        font-size: 12px;
+        font-family: Montserrat, Arial;
+        text-decoration: line-through;
+        color: hsl(228, 12%, 48%);
+      }
+    
+      .button-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .button {
+        font-family: Montserrat, Arial;
+        background-color: hsl(158, 36%, 37%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 5px;
+        width: 100%;
+        padding: 12px;
+        cursor: pointer;
+      }
+    
+      .button-icon{
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+    }
